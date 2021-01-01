@@ -24,7 +24,13 @@ jobs:
           - ruby: 2.7
             gemfile: gemfiles/rails-6-1.gemfile
             experimental: false
-          - ruby: 2.7
+          - ruby: 3.0.0
+            gemfile: gemfiles/rails-6-0.gemfile
+            experimental: false
+          - ruby: 3.0.0
+            gemfile: gemfiles/rails-6-1.gemfile
+            experimental: false
+          - ruby: 3.0.0
             gemfile: gemfiles/rails-master.gemfile
             experimental: true
           - ruby: ruby-head
